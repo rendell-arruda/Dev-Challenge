@@ -1,16 +1,7 @@
 /* HEADER */
-body {
-  max-width: 1140px;
-  margin: 0 auto;
-}
 
-a {
+.menu-link {
   color: var(--gray);
-  text-decoration: none;
-}
-
-a:hover {
-  /* background: rgba(0, 0, 0, 0.05); */
 }
 
 #logo {
@@ -20,13 +11,11 @@ a:hover {
 }
 
 #header {
-  box-sizing: border-box;
   height: 70px;
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* background: #e7e7e7; */
 }
 
 /* MENU */
