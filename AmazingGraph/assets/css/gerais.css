@@ -1,0 +1,16 @@
+:root {
+  --orange: #d2872c;
+  --gray: #766f68;
+}
+
+body,
+ul {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: var(--gray);
+}
+
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,61 @@
+.conteudo-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 32px 0 64px;
+}
+
+.conteudo-principal__texto {
+  position: absolute;
+  z-index: 999;
+}
+
+.title {
+  font-weight: 700;
+  max-width: 19ch;
+}
+
+.subtitle {
+  line-height: 1.2;
+  max-width: 29ch;
+}
+
+.botao {
+  background-color: var(--orange);
+  padding: 8px 50px;
+  color: white;
+}
+
+.img {
+  position: relative;
+  right: 0;
+  display: flex;
+  justify-content: right;
+}
+
+.img img {
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .conteudo-principal {
+    padding: 0px 20px;
+  }
+  .conteudo-principal {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+  }
+
+  .conteudo-principal__texto {
+    position: relative;
+  }
+  .img {
+    order: -1;
+  }
+  .img img {
+    width: initial;
+  }
+}
