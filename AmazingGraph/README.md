@@ -22,4 +22,4 @@ O desafio é criar uma página sobre um site de criação de gráficos. Desafio 
 
 ---
 
-**Desenvolvido por: [Thiago Batista](https://github.com/ThiagoSantosBatista/).**
+**Desenvolvido por: [Rendell Arruda](https://github.com/rendell-arruda/).**
