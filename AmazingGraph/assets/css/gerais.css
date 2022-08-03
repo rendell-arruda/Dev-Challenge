@@ -2,15 +2,33 @@
   --orange: #d2872c;
   --gray: #766f68;
 }
-
+* {
+  box-sizing: border-box;
+}
 body,
-ul {
+ul,
+figure,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
   font-family: 'Roboto', sans-serif;
   margin: 0px;
   padding: 0px;
   color: var(--gray);
 }
 
+a {
+  text-decoration: none;
+}
 img {
+  display: block;
   max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
 }
