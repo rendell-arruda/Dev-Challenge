@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  color: var(--black);
 }
 
 :root {
@@ -14,11 +15,15 @@ nav,
 h1,
 h2,
 p,
+div,
 body {
   margin: 0;
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
 a {
   text-decoration: none;
   color: var(--black);
@@ -31,4 +36,16 @@ li {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.container-l {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }

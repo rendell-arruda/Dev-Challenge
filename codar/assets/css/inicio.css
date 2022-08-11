@@ -1,0 +1,22 @@
+.inicio__imagem {
+  max-width: 450px;
+}
+
+.inicio__conteudo__paragrafo {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.inicio__conteudo__titulo {
+  font-size: 3rem;
+  color: var(--red);
+  padding-bottom: 3rem;
+}
+
+.inicio__conteudo__link {
+  background-color: var(--red);
+  border-radius: 5px;
+  color: white;
+  font-size: 1.25rem;
+  padding: 10px 40px;
+}
