@@ -1,5 +1,12 @@
 .inicio__imagem {
-  max-width: 450px;
+  max-width: 350px;
+}
+
+.inicio__conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .inicio__conteudo__paragrafo {
@@ -10,13 +17,22 @@
 .inicio__conteudo__titulo {
   font-size: 3rem;
   color: var(--red);
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .inicio__conteudo__link {
   background-color: var(--red);
-  border-radius: 5px;
+  border-radius: 10px;
   color: white;
   font-size: 1.25rem;
-  padding: 10px 40px;
+  padding: 10px 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .inicio__conteudo__titulo {
+    padding-bottom: 1.5rem;
+  }
+  .inicio__imagem {
+    max-width: 300px;
+  }
 }
