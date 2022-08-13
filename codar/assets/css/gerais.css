@@ -39,7 +39,7 @@ li {
 }
 
 .container-l {
-  max-width: 960px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -57,11 +57,17 @@ li {
   align-items: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .flex {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .flex {
+    padding: 0 10px;
   }
 }
