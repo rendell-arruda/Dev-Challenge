@@ -37,9 +37,6 @@
 }
 
 @media screen and (max-width: 500px) {
-  .nav-list {
-    gap: 3rem;
-  }
   .header {
     flex-direction: column;
     padding-top: 60px;
