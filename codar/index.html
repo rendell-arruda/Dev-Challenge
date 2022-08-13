@@ -1,6 +1,4 @@
-<!-- Codar. Início Serviços Contato Login Alavanque seu negócio com um Website
-incrível Solicitar orçamento Domínio personalizado Hospedagem Site responsivo
-Redes sociais Chat online Blog integrado Nossa equipe está à disposição! Celular
+<!--   Celular
 Ligamos pra você Já tive experiências com outras 4 empresas da área e a Codar é
 sem sombra de dúvidas superior em todos os aspectos. Pedro Ferreira Construtora
 Minari Processos bem simples e criação de um site exatamente como a minha escola
@@ -9,46 +7,76 @@ Amamos criar soluções e entregar sites incríveis Contato 123 Av. Manjar - Ná
 +55 96 2321-3131 contato@codar.com Redes sociais -->
 
 <!DOCTYPE html <html lang="pt-br">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codar.</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Codar.</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-</head>
-
-<body>
-  <header class="header container">
-    <a class="logo" href="#">Codar<span>.</span></a>
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-list__item"><a href="#inicio">Início</a></li>
-        <li class="nav-list__item"><a href="#servicos">Serviços</a></li>
-        <li class="nav-list__item"><a href="#contato">Contato</a></li>
-        <li class="nav-list__item login"><a href="#">Login</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="inicio" class="container">
-      <div class="container-l flex">
-        <figure>
-      <img src="./assets/video_call.png" alt="Video call" class="inicio__imagem"></figure>
-      <div class="inicio__conteudo">
-        <p class="inicio__conteudo__paragrafo">Alavanque seu negócio com um</p>
-        <h1 class="inicio__conteudo__titulo">Website incrível</h1>
-        <a href="#" class="inicio__conteudo__link">Solicitar orçamento</a>
-      </div>
-    </div>
-    </section>
-    <section id="servicos"></section>
-    <section id="contato"></section>
-  </main>
-  <footer></footer>
-</body>
-
+  <body>
+    <header class="header container">
+      <a class="logo" href="#">Codar<span>.</span></a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list__item"><a href="#inicio">Início</a></li>
+          <li class="nav-list__item"><a href="#servicos">Serviços</a></li>
+          <li class="nav-list__item"><a href="#contato">Contato</a></li>
+          <li class="nav-list__item login"><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio" class="container">
+        <div class="container-l grid">
+          <figure>
+            <img
+              src="./assets/video_call.png"
+              alt="Video call"
+              class="inicio__imagem"
+            />
+          </figure>
+          <div class="inicio__conteudo">
+            <p class="inicio__conteudo__paragrafo">
+              Alavanque seu negócio com um
+            </p>
+            <h1 class="inicio__conteudo__titulo">Website incrível</h1>
+            <a href="#" class="btn__link">Solicitar orçamento</a>
+          </div>
+        </div>
+      </section>
+      <section id="servicos">
+        <ul class="servicos-list">
+          <li>Domínio personalizado</li>
+          <li>Hospedagem</li>
+          <li>Site responsivo</li>
+          <li>Redes sociais</li>
+          <li>Chat online</li>
+          <li>Blog integrado</li>
+        </ul>
+        <figure><img src="./assets/coding_.png" alt="Coding" /></figure>
+        <form action="#">
+          <p>Nossa equipe está à disposição</p>
+          <input
+            class="input__cel"
+            type="tel"
+            name="cel"
+            id="cel"
+            placeholder="Celular"
+          />
+          <button class="btn__cel">Ligamos pra você</button>
+        </form>
+      </section>
+      <section id="contato"></section>
+    </main>
+    <footer></footer>
+  </body>
 </html>

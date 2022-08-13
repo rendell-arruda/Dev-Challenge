@@ -1,0 +1,18 @@
+.input__cel {
+  background-color: #dcdcdc;
+  border: none;
+  border-radius: 10px;
+  color: #f1f1f1;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.btn__cel {
+  background-color: var(--red);
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  color: #f1f1f1;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
