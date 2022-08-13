@@ -1,3 +1,16 @@
+.servicos {
+  padding-top: 110px;
+}
+
+.list {
+  padding-bottom: 10px;
+}
+
+.fa-check-circle {
+  color: #d6000d;
+  margin-right: 20px;
+}
+
 .input__cel {
   background-color: #dcdcdc;
   border: none;
@@ -15,4 +28,8 @@
   color: #f1f1f1;
   font-size: 1rem;
   padding: 10px 20px;
+}
+
+.servicos__imagem {
+  max-width: 450px;
 }

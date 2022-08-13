@@ -20,10 +20,16 @@ Amamos criar soluções e entregar sites incríveis Contato 123 Av. Manjar - Ná
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
-    <header class="header container">
+    <header class="header">
       <a class="logo" href="#">Codar<span>.</span></a>
       <nav class="nav">
         <ul class="nav-list">
@@ -35,46 +41,80 @@ Amamos criar soluções e entregar sites incríveis Contato 123 Av. Manjar - Ná
       </nav>
     </header>
     <main>
-      <section id="inicio" class="container">
-        <div class="container-l grid">
-          <figure>
-            <img
-              src="./assets/video_call.png"
-              alt="Video call"
-              class="inicio__imagem"
-            />
-          </figure>
-          <div class="inicio__conteudo">
-            <p class="inicio__conteudo__paragrafo">
-              Alavanque seu negócio com um
-            </p>
-            <h1 class="inicio__conteudo__titulo">Website incrível</h1>
-            <a href="#" class="btn__link">Solicitar orçamento</a>
+      <div class="conteudo__principal">
+        <section id="inicio">
+          <div class="flex">
+            <figure class="inicio__imagem">
+              <img src="./assets/video_call.png" alt="Video call" />
+            </figure>
+            <div class="inicio__conteudo">
+              <p class="inicio__conteudo__paragrafo">
+                Alavanque seu negócio com um
+              </p>
+              <h1 class="inicio__conteudo__titulo">Website incrível</h1>
+              <a href="#" class="btn__link">Solicitar orçamento</a>
+            </div>
           </div>
-        </div>
-      </section>
-      <section id="servicos">
-        <ul class="servicos-list">
-          <li>Domínio personalizado</li>
-          <li>Hospedagem</li>
-          <li>Site responsivo</li>
-          <li>Redes sociais</li>
-          <li>Chat online</li>
-          <li>Blog integrado</li>
-        </ul>
-        <figure><img src="./assets/coding_.png" alt="Coding" /></figure>
-        <form action="#">
-          <p>Nossa equipe está à disposição</p>
-          <input
-            class="input__cel"
-            type="tel"
-            name="cel"
-            id="cel"
-            placeholder="Celular"
-          />
-          <button class="btn__cel">Ligamos pra você</button>
-        </form>
-      </section>
+        </section>
+
+        <section id="servicos" class="servicos flex">
+          <ul class="fa-ul">
+            <li class="list">
+              <span class="fa-li">
+                <i class="fas fa-check-circle"></i>
+              </span>
+              Domínio personalizado
+            </li>
+            <li class="list">
+              <span class="fa-li">
+                <i class="fas fa-check-circle"></i>
+              </span>
+              Hospedagem
+            </li>
+            <li class="list">
+              <span class="fa-li">
+                <i class="fas fa-check-circle"></i>
+              </span>
+              Site responsivo
+            </li>
+            <li class="list">
+              <span class="fa-li">
+                <i class="fas fa-check-circle"></i>
+              </span>
+              Redes sociais
+            </li>
+            <li class="list">
+              <span class="fa-li">
+                <i class="fas fa-check-circle"></i>
+              </span>
+              Chat online
+            </li>
+            <li class="list">
+              <span class="fa-li">
+                <i class="fas fa-check-circle"></i>
+              </span>
+              Blog integrado
+            </li>
+          </ul>
+          <figure class="servicos__imagem">
+            <img src="./assets/coding_.png" alt="Coding" />
+          </figure>
+        </section>
+        <section class="form">
+          <form action="#">
+            <p>Nossa equipe está à disposição</p>
+            <input
+              class="input__cel"
+              type="tel"
+              name="cel"
+              id="cel"
+              placeholder="Celular"
+            />
+            <button class="btn__cel">Ligamos pra você</button>
+          </form>
+        </section>
+      </div>
+
       <section id="contato"></section>
     </main>
     <footer></footer>

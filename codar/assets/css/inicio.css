@@ -1,5 +1,6 @@
-/* .inicio__imagem {
-} */
+.inicio__imagem {
+  max-width: 400px;
+}
 
 .inicio__conteudo {
   display: flex;
@@ -15,7 +16,7 @@
 
 .inicio__conteudo__titulo {
   color: var(--red);
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
   padding-bottom: 2rem;
 }
@@ -29,7 +30,7 @@
   padding: 10px 50px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 856px) {
   .inicio__conteudo {
     justify-content: center;
     align-items: center;

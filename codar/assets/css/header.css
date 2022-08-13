@@ -2,8 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
-  padding: 1rem;
+  padding: 16px 16px 60px 16px;
 }
 
 .logo {
@@ -43,6 +42,7 @@
   }
   .header {
     flex-direction: column;
+    padding-top: 60px;
   }
   .nav-list .login {
     display: none;
