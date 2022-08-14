@@ -2,8 +2,16 @@
   padding-top: 110px;
 }
 
+.servicos__imagem {
+  max-width: 400px;
+}
+
 .list:not(:last-child) {
   padding-bottom: 10px;
+}
+
+.list {
+  font-size: 1.125rem;
 }
 
 .fa-check-circle {
@@ -11,13 +19,27 @@
   margin-right: 20px;
 }
 
+.form {
+  padding: 50px 0;
+}
+
+.form_p {
+  font-size: 1.125rem;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
 .input__cel {
   background-color: #dcdcdc;
   border: none;
   border-radius: 10px;
+  display: inline-block;
   color: #f1f1f1;
   font-size: 1rem;
-  padding: 10px;
+  width: 200px;
+  height: 40px;
+
+  padding-left: 15px;
 }
 
 .btn__cel {
@@ -27,9 +49,36 @@
   display: inline-block;
   color: #f1f1f1;
   font-size: 1rem;
-  padding: 10px 20px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
 }
 
 .servicos__imagem {
   max-width: 450px;
+}
+
+@media screen and (max-width: 700px) {
+  .servicos__imagem {
+    order: -1;
+    max-width: 300px;
+  }
+  .form_p {
+    padding-bottom: 0;
+    font-size: 1.5rem;
+  }
+  .list:not(:last-child) {
+    padding-bottom: 30px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .input__cel,
+  .btn__cel {
+    height: 60;
+    width: 260px;
+  }
 }
