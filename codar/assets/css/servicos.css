@@ -58,7 +58,54 @@
   max-width: 450px;
 }
 
+/* rever os espaçamentos e cores */
+
+.depoimentos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 20px;
+  gap: 30px;
+}
+
+.depoimento {
+  background-color: #dcdcdc;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.depoimento__conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.depoimento__foto-cliente {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #d6000d;
+}
+
+.depoimento__texto {
+  font-size: 1.125rem;
+}
+
+.depoimento__nome-cliente {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+
+.depoimento__nome-instituicao {
+  font-size: 1rem;
+  font-weight: 700;
+}
 @media screen and (max-width: 700px) {
+  .list {
+    font-size: 1rem;
+  }
   .servicos__imagem {
     order: -1;
     max-width: 300px;
@@ -80,5 +127,9 @@
   .btn__cel {
     height: 60;
     width: 260px;
+  }
+
+  .depoimentos {
+    grid-template-columns: 1fr;
   }
 }
