@@ -1,6 +1,5 @@
-<!--    Maria Rita Escola Criança Feliz Codar. Criamos websites incríveis Sobre
-Amamos criar soluções e entregar sites incríveis Contato 123 Av. Manjar - Nárnia
-+55 96 2321-3131 contato@codar.com Redes sociais -->
+<!--    Sobre
+ +55 96 2321-3131 contato@codar.com Redes sociais -->
 
 <!DOCTYPE html <html lang="pt-br">
 <html>
@@ -25,7 +24,7 @@ Amamos criar soluções e entregar sites incríveis Contato 123 Av. Manjar - Ná
   </head>
 
   <body>
-    <header class="header">
+    <header class="header container">
       <a class="logo" href="#">Codar<span>.</span></a>
       <nav class="nav">
         <ul class="nav-list">
@@ -111,7 +110,7 @@ Amamos criar soluções e entregar sites incríveis Contato 123 Av. Manjar - Ná
         </section>
       </div>
 
-      <section class="depoimentos">
+      <section class="depoimentos container">
         <div class="depoimento">
           <span class="depoimento__foto-cliente"></span>
           <div class="depoimento__conteudo">
@@ -135,9 +134,34 @@ Amamos criar soluções e entregar sites incríveis Contato 123 Av. Manjar - Ná
           </div>
         </div>
       </section>
-
-      <section id="contato"></section>
     </main>
-    <footer></footer>
+    <footer id="contato" class="">
+      <div class="container footer__conteudo">
+        <div class="footer__cards card__logo">
+          <a class="logo logo__rodape" href="#">Codar.</a>
+          <p class="slogan__footer">Criamos websites incríveis</p>
+        </div>
+
+        <div class="footer__cards">
+          <h3 class="sobre__subtitulo">Sobre</h3>
+          <p class="sobre__desc">
+            Amamos criar soluções e entregar sites incríveis
+          </p>
+        </div>
+
+        <div class="footer__cards">
+          <h3 class="sobre__subtitulo">Contato</h3>
+          <p class="sobre__desc">Contato 123 Av. Manjar - Nárnia</p>
+          <p class="sobre__desc">+55 96 2321-3131</p>
+          <a href="mailto:contato@codar.com" class="sobre__desc__email"
+            >contato@codar.com</a
+          >
+        </div>
+
+        <div class="footer__cards">
+          <h3 class="sobre__subtitulo">Redes Sociais</h3>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

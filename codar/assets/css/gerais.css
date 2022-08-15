@@ -6,8 +6,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--black);
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 img {
@@ -22,7 +20,15 @@ a {
 }
 
 .conteudo__principal {
+  max-width: 1000px;
+
+  margin: 0 auto;
   padding: 0 60px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .flex {

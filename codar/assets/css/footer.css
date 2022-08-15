@@ -1,0 +1,49 @@
+footer {
+  background-color: black;
+  padding: 30px;
+}
+
+.footer__conteudo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer__cards {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+/* .footer__cards:not(:last-child) {
+  padding-bottom: 20px;
+} */
+
+.logo__rodape {
+  color: white;
+}
+
+.slogan__footer {
+  font-size: 14px;
+}
+
+.sobre__subtitulo {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.sobre__desc {
+  font-size: 14px;
+}
+
+.sobre__desc__email {
+  color: inherit;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__conteudo {
+    grid-template-columns: 1fr;
+  }
+  .card__logo {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
