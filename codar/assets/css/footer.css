@@ -8,6 +8,7 @@ footer {
   grid-template-columns: repeat(4, 1fr);
 }
 .footer__card__logo {
+  padding: 10px;
   display: flex;
   flex-direction: column;
   color: white;
@@ -15,6 +16,7 @@ footer {
 }
 
 .footer__cards {
+  padding: 10px;
   display: flex;
   flex-direction: column;
   color: white;
@@ -36,13 +38,26 @@ footer {
   padding-bottom: 20px;
 }
 .sobre__desc {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .sobre__desc__email {
   color: inherit;
 }
 
+.footer-cards__redes {
+  /* background-color: aqua; */
+  color: red;
+  max-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-cards__rede {
+  color: var(--red);
+  /* width: 40px; */
+}
 @media screen and (max-width: 700px) {
   .footer__conteudo {
     grid-template-columns: 1fr;
