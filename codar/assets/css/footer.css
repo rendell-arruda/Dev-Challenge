@@ -7,28 +7,33 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+.footer__card__logo {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+}
 
 .footer__cards {
   display: flex;
   flex-direction: column;
   color: white;
+  gap: 10px;
 }
-
-/* .footer__cards:not(:last-child) {
-  padding-bottom: 20px;
-} */
 
 .logo__rodape {
   color: white;
 }
 
 .slogan__footer {
-  font-size: 14px;
+  font-size: 1rem;
 }
 
-.sobre__subtitulo {
-  font-size: 1.125rem;
+.sobre__subtitulo,
+.redes__subtitulo {
+  font-size: 24px;
   font-weight: 700;
+  padding-bottom: 20px;
 }
 .sobre__desc {
   font-size: 14px;
