@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dev Challenge
 
 <img src="./capa-devChallenge.png" alt="exemplo imagem">
@@ -25,3 +26,7 @@ O repositório está em constante atualização conforme vou desenvolvendo os pr
 </h4>
 
 [⬆ Voltar ao topo](#DevChallenge)<br>
+=======
+# Dev-Challenge
+Repositório com os exercícios do site Dev-Challeng.
+>>>>>>> e18decc81976477e9347ed334f197b3d062c86f3
