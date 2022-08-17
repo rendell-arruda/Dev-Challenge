@@ -9,7 +9,6 @@ Essa é uma solução para o desafio de criar uma página sobre um site de cria�
 
 ## 🔗 Link do site
 
-https://tsb-amazinggraph.netlify.app/
 
 ## ℹ️ Sobre
 
