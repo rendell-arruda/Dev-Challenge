@@ -4,7 +4,7 @@
 
 > Este site é um mega repositório com diversos desafios nas áreas de Front-end, Back-end e mobile. Acesse o <a href='https://devchallenge.vercel.app/'>site</a> da plataforma e melhore suas habilidades.
 
-## Projetos
+##🗂️ Projetos
 
 O repositório está em constante atualização conforme vou desenvolvendo os projetos. Os seguintes desafios já foram solucionados:
 
