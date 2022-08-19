@@ -1,0 +1,8 @@
+.main__container {
+  padding: 30px 70px 60px 70px;
+  background-color: aqua;
+}
+
+main img {
+  padding: 0;
+}
