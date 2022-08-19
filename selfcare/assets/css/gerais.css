@@ -1,0 +1,12 @@
+:root {
+  --green1: #5ca720;
+  --black: #161616;
+  --gray: #a5a1a1;
+  --whitebg: #f9f9f9;
+}
+body {
+  background-color: var(--whitebg);
+  font-family: 'Lato', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
